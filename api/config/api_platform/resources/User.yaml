@@ -2,7 +2,7 @@ App\Entity\User:
   attributes:
     normalization_context:
       groups: [user_read]
-  collectionOpearions:
+  collectionOperations:
     register:
       method: POST
       path: /users/register
